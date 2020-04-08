@@ -15,7 +15,7 @@ __step 1:__ install the necessary npm packages by typing in the following comman
 npm install
 ```
 __step 2:__ create a GitHub API access token at insert into the code
-* follow the instructions on how to [get an API access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) and make sure to check off the "users" box to gain access to this information
+* follow the instructions on how to [get an API access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) and make sure to check off the _"users"_ box to gain access to this information
 * insert into code (in index.js on Line6)
 ![api key location](images/api-key-location.png)
 ## Usage:
@@ -25,6 +25,8 @@ node index.js
 ```
 __step 2:__ answer the prompts for GitHub username, repository name, project title, and project description
 ![application](images/app.gif)
+
+* [another GIF link](https://drive.google.com/file/d/1bmY5bLLlK-in1k7XE20dV8L088vOcHE7)
 ## License:
 MIT License
 
@@ -144,6 +146,11 @@ enforcement ladder.
 For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at
 https://www.contributor-covenant.org/translations.
+## Resources:
+* [npm.js packages](https://www.npmjs.com/)
+    * [FileSystem (fs)](https://www.npmjs.com/package/fs)
+    * [axios](https://www.npmjs.com/package/axios)
+    * [inquirer](https://www.npmjs.com/package/inquirer)
 ## Tests:
 ## Questions: 
 for any questions, please contact:
