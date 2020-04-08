@@ -37,7 +37,7 @@ const questions = [
 // WRITE USER INFO INTO A FILE ================================================
 function writeToFile(answers, response) {
     // console.log(markdown(answers, response));
-    fs.writeFile("README.md", markdown(answers, response), function(err) {
+    fs.writeFile("your-new-README.md", markdown(answers, response), function(err) {
         if (err) {
             return console.log(err)
         }

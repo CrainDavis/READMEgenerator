@@ -15,7 +15,7 @@ __step 1:__ install the necessary npm packages by typing in the following comman
 npm install
 ```
 __step 2:__ create a GitHub API access token at insert into the code
-* follow the instructions on how to [get an API access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
+* follow the instructions on how to [get an API access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) and make sure to check off the "users" box to gain access to this information
 * insert into code (in index.js on Line6)
 ![api key location](images/api-key-location.png)
 ## Usage:
