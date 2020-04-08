@@ -1,7 +1,8 @@
-# Good GitHub README Generator
-  ![GitHub repo size](https://img.shields.io/github/repo-size/CrainDavis/READMEgenerator?style=for-the-badge) ![GitHub code size](https://img.shields.io/github/languages/code-size/CrainDavis/READMEgenerator?color=gold&style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/CrainDavis/READMEgenerator?color=green&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/CrainDavis/READMEgenerator?color=red&style=for-the-badge)
+function generateMarkdown(answers, response) {
+  return `# ${answers.title}
+  ![GitHub repo size](https://img.shields.io/github/repo-size/${answers.username}/${answers.repoName}?style=for-the-badge) ![GitHub code size](https://img.shields.io/github/languages/code-size/${answers.username}/${answers.repoName}?color=gold&style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/${answers.username}/${answers.repoName}?color=green&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/${answers.username}/${answers.repoName}?color=red&style=for-the-badge)
 ## Description:
-a command-line application to generate a README markdown file for a GitHub project by collecting the user's input for their GitHub profile and repository data.
+${answers.description}
 ## Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
@@ -10,20 +11,7 @@ a command-line application to generate a README markdown file for a GitHub proje
 * [Tests](#tests)
 * [Questions](#questions)
 ## Installation:
-step 1: install the necessary npm packages by typing in the following command in the terminal:
-```
-npm install
-```
-step 2: create a GitHub API access token at insert into the code
-* follow the instructions on how to [get an API access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
-* insert into code (in index.js on Line6)
-![api key location](images/api-key-location.png)
 ## Usage:
-step 1: in the terminal, invoke the application with the following command:
-```
-node index.js
-```
-step 2: answer the prompts for GitHub username, repository name, project title, and project description
 ## License:
 MIT License
 
@@ -147,6 +135,9 @@ https://www.contributor-covenant.org/translations.
 ## Questions: 
 for any questions, please contact:
 
-![CrainDavis](https://avatars0.githubusercontent.com/u/59345254?v=4) 
+![${answers.username}](${response.data.avatar_url}) 
 
-__[CrainDavis](https://github.com/CrainDavis)__ at chyna.davis11@gmail.com
+__[${answers.username}](https://github.com/${answers.username})__ at ${response.data.email}`;
+}
+
+module.exports = generateMarkdown;
