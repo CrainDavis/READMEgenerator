@@ -17,17 +17,17 @@ const questions = [
     {
         type: 'input',
         name: 'repoName',
-        message: 'What is the NAME of your GitHub repository? (must be exact!)' 
+        message: 'What is the NAME of your GitHub repository? (repository MUST already exist, and your input here must match the repo name EXACTLY!)' 
     },
     {
         type: 'input',
         name: 'title',
-        message: 'What is the TITLE of your project?' 
+        message: 'What is the TITLE of your project/application?' 
     },
     {
         type: 'input',
         name: 'description',
-        message: 'Enter a DESCRIPTION of the project. (press ENTER key to leave blank)',
+        message: 'Enter a DESCRIPTION of the project. (or press ENTER key to leave blank)',
         default: function() {
             return "";
         } 
