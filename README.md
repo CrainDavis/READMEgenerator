@@ -7,6 +7,7 @@ a command-line application to generate a README markdown file for a GitHub proje
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
+* [Resourcs](#resources)
 * [Tests](#tests)
 * [Questions](#questions)
 ## Installation:

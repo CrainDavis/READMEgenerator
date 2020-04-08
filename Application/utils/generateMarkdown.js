@@ -8,6 +8,7 @@ ${answers.description}
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
+* [Resources](#resources)
 * [Tests](#tests)
 * [Questions](#questions)
 ## Installation:
