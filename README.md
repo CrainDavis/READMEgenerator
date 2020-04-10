@@ -4,7 +4,7 @@
 ---
 
 ## Description:
-a command-line application to generate a README markdown file for a GitHub project by collecting the user's input for their GitHub profile and repository data
+a command-line application to generate a README markdown file for a GitHub project by collecting the user's input for their GitHub profile, repository data, and copyright information
 
 ---
 
@@ -43,7 +43,7 @@ node index.js
 __step 2:__ answer the prompts for GitHub username, repository name, project title, and project description
 ![application](images/app.gif)
 
-* [another GIF link](https://drive.google.com/file/d/1bmY5bLLlK-in1k7XE20dV8L088vOcHE7)
+* [another GIF link](https://drive.google.com/file/d/1aVHupjIQYec1aIxZPWpgR6WyWWicYoBJ)
 
 ---
 
