@@ -17,7 +17,7 @@ const questions = [
     {
         type: 'input',
         name: 'repoName',
-        message: 'What is the NAME of your GitHub repository? (repository MUST already exist, and your input here must match the repo name EXACTLY!)' 
+        message: 'What is the NAME of your GitHub repository? (input must match the repo name EXACTLY!)' 
     },
     {
         type: 'input',
