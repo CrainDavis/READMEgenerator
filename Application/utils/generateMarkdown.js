@@ -1,8 +1,14 @@
 function generateMarkdown(answers, response) {
   return `# ${answers.title}
   ![GitHub repo size](https://img.shields.io/github/repo-size/${answers.username}/${answers.repoName}?style=for-the-badge) ![GitHub code size](https://img.shields.io/github/languages/code-size/${answers.username}/${answers.repoName}?color=gold&style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/${answers.username}/${answers.repoName}?color=green&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/${answers.username}/${answers.repoName}?color=red&style=for-the-badge)
+
+---
+
 ## Description:
 ${answers.description}
+
+---
+
 ## Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
@@ -11,12 +17,21 @@ ${answers.description}
 * [Resources](#resources)
 * [Tests](#tests)
 * [Questions](#questions)
+
+---
+
 ## Installation:
+
+---
+
 ## Usage:
+
+---
+
 ## License:
 MIT License
 
-Copyright (c) [year] [full name]
+Copyright © ${answers.year} ${answers.owner}
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -35,6 +50,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
 ## Contributing:
 Contributor Covenant Code of Conduct
 Our Pledge
@@ -132,8 +150,17 @@ enforcement ladder.
 For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at
 https://www.contributor-covenant.org/translations.
+
+---
+
 ## Resources:
+
+---
+
 ## Tests:
+
+---
+
 ## Questions: 
 for any questions, please contact:
 

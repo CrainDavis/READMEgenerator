@@ -1,7 +1,13 @@
 # Good GitHub README Generator
   ![GitHub repo size](https://img.shields.io/github/repo-size/CrainDavis/READMEgenerator?style=for-the-badge) ![GitHub code size](https://img.shields.io/github/languages/code-size/CrainDavis/READMEgenerator?color=gold&style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/CrainDavis/READMEgenerator?color=green&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/CrainDavis/READMEgenerator?color=red&style=for-the-badge)
+
+---
+
 ## Description:
 a command-line application to generate a README markdown file for a GitHub project by collecting the user's input for their GitHub profile and repository data
+
+---
+
 ## Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
@@ -10,15 +16,25 @@ a command-line application to generate a README markdown file for a GitHub proje
 * [Resources](#resources)
 * [Tests](#tests)
 * [Questions](#questions)
+
+---
+
 ## Installation:
-__step 1:__ install the necessary npm packages by typing in the following command in the terminal:
+__step 1:__ clone this repository to your device; in your desired directory, enter the following in command-line:
+```
+git clone https://github.com/CrainDavis/READMEgenerator.git
+```
+__step 2:__ install the necessary npm packages by typing in the following command in the terminal:
 ```
 npm install
 ```
-__step 2:__ create a GitHub API access token at insert into the code
+__step 3:__ create a GitHub API access token at insert into the code
 * follow the instructions on how to [get an API access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) and make sure to check off the _"users"_ box to gain access to this information
 * insert into code (in index.js on Line6)
 ![api key location](images/api-key-location.png)
+
+---
+
 ## Usage:
 __step 1:__ in the terminal, invoke the application with the following command:
 ```
@@ -28,10 +44,13 @@ __step 2:__ answer the prompts for GitHub username, repository name, project tit
 ![application](images/app.gif)
 
 * [another GIF link](https://drive.google.com/file/d/1bmY5bLLlK-in1k7XE20dV8L088vOcHE7)
+
+---
+
 ## License:
 MIT License
 
-Copyright (c) [year] [full name]
+Copyright © 2020 Chyna Davis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -50,6 +69,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
 ## Contributing:
 Contributor Covenant Code of Conduct
 Our Pledge
@@ -147,12 +169,21 @@ enforcement ladder.
 For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at
 https://www.contributor-covenant.org/translations.
+
+---
+
 ## Resources:
 * [npm.js packages](https://www.npmjs.com/)
     * [FileSystem (fs)](https://www.npmjs.com/package/fs)
     * [axios](https://www.npmjs.com/package/axios)
     * [inquirer](https://www.npmjs.com/package/inquirer)
+
+---
+
 ## Tests:
+
+---
+
 ## Questions: 
 for any questions, please contact:
 

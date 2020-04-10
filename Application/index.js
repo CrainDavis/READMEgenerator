@@ -31,6 +31,16 @@ const questions = [
         default: function() {
             return "";
         } 
+    },
+    {
+        type: 'input',
+        name: 'owner',
+        message: 'Who is the OWNER of this application? (enter your full name / company name (for copyright info)' 
+    },
+    {
+        type: 'input',
+        name: 'year',
+        message: 'What YEAR was this application released?' 
     }
 ];
 
