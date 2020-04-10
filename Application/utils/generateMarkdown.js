@@ -29,7 +29,7 @@ ${answers.description}
 ---
 
 ## License:
-MIT License
+[MIT License](https://opensource.org/licenses/MIT)
 
 Copyright © ${answers.year} ${answers.owner}
 
