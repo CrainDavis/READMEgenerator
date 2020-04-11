@@ -45,7 +45,7 @@ __step 2:__ answer the prompts for GitHub username, repository name, project tit
 
 * [another GIF link](https://drive.google.com/file/d/1aVHupjIQYec1aIxZPWpgR6WyWWicYoBJ)
 
-__step 3:__ in your newly-generated README.md file, add other additional important information for each of the sections
+__step 3:__ in your newly-generated README.md file, add your additional important information for each of the sections (ie, Installation, Usage, Resources, Tests, etc...)
 
 ---
 
