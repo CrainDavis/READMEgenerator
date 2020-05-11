@@ -12,6 +12,7 @@ ${answers.description}
 ## Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
+* [Demonstration](#demonstration)
 * [License](#license)
 * [Contributing](#contributing)
 * [Resources](#resources)
@@ -25,6 +26,10 @@ ${answers.description}
 ---
 
 ## Usage:
+
+---
+
+## Demonstration:
 
 ---
 
