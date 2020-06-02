@@ -14,7 +14,6 @@ a command-line application to generate a README markdown file for a GitHub proje
 * [License](#license)
 * [Contributing](#contributing)
 * [Resources](#resources)
-* [Tests](#tests)
 * [Questions](#questions)
 
 ---
@@ -179,10 +178,6 @@ https://www.contributor-covenant.org/translations.
     * [FileSystem (fs)](https://www.npmjs.com/package/fs)
     * [axios](https://www.npmjs.com/package/axios)
     * [inquirer](https://www.npmjs.com/package/inquirer)
-
----
-
-## Tests:
 
 ---
 
