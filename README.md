@@ -179,11 +179,4 @@ https://www.contributor-covenant.org/translations.
     * [axios](https://www.npmjs.com/package/axios)
     * [inquirer](https://www.npmjs.com/package/inquirer)
 
----
 
-## Questions: 
-for any questions, please contact:
-
-![CrainDavis](https://avatars0.githubusercontent.com/u/59345254?v=4) 
-
-__[CrainDavis](https://github.com/CrainDavis)__ at chyna.davis11@gmail.com
